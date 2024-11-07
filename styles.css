@@ -1,0 +1,80 @@
+/* Overall page styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f8ff;
+    color: #333;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Book container styling */
+.book-container {
+    max-width: 700px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+/* Title styling */
+.title {
+    font-size: 2.2em;
+    color: #4a90e2;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Story text styling */
+.story {
+    font-size: 1.15em;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Word styling for clickable effect */
+.word {
+    cursor: pointer;
+    color: #ff6347;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+.word:hover {
+    color: #d9534f;
+    text-decoration: underline;
+}
+
+/* Moral styling */
+.moral {
+    font-size: 1.4em;
+    color: #5a5a5a;
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .book-container {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    .story {
+        font-size: 1em;
+    }
+
+    .moral {
+        font-size: 1.2em;
+    }
+}
